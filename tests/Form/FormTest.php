@@ -6,6 +6,9 @@ use Laminas\Form\Element\Text;
 
 class FormTest extends TestCase
 {
+    /**
+     * @covers Form
+     */
     public function testForm()
     {
         $form = new Form();
