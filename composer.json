@@ -19,9 +19,11 @@
 		}
 	},
 	"require" : {
-		"php" : "^7.2",
-		"laminas/laminas-form" : "^2.14.0",
-		"phpunit/phpunit" : "^8.5"
+		"php" : "^8.2",
+		"laminas/laminas-form" : "^3.21"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^10.5"
 	},
 	"config" : {
 		"secure-http" : false
